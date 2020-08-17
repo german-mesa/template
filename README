@@ -1,0 +1,54 @@
+Here you can find some of the datasets. Some manual work needed in some cases.
+
+CNN Datasources
+--------------
+wget --no-check-certificate \
+    https://storage.googleapis.com/laurencemoroney-blog.appspot.com/horse-or-human.zip \
+    -O ./datasets/images/horses_or_humans/horse-or-human.zip
+
+wget --no-check-certificate \
+    https://storage.googleapis.com/laurencemoroney-blog.appspot.com/horse-or-human.zip \
+    -O ./datasets/images/horses_or_humans/horse-or-human.zip
+
+wget --no-check-certificate \
+    https://storage.googleapis.com/laurencemoroney-blog.appspot.com/validation-horse-or-human.zip \
+    -O ./datasets/images/horses_or_humans/validation-horse-or-human.zip
+
+wget --no-check-certificate \
+  https://storage.googleapis.com/mledu-datasets/cats_and_dogs_filtered.zip \
+  -O ./datasets/images/cats_and_dogs/cats_and_dogs_filtered.zip
+
+
+wget --no-check-certificate \
+    https://storage.googleapis.com/mledu-datasets/inception_v3_weights_tf_dim_ordering_tf_kernels_notop.h5 \
+    -O ./transfer/inception_v3_weights_tf_dim_ordering_tf_kernels_notop.h5
+
+
+NLP Datasources
+---------------
+wget --no-check-certificate \
+    https://storage.googleapis.com/laurencemoroney-blog.appspot.com/sarcasm.json \
+    -O ./datasets/sarcasm.json
+
+wget --no-check-certificate \
+    https://storage.googleapis.com/laurencemoroney-blog.appspot.com/bbc-text.csv \
+    -O ./datasets/bbc-text.csv
+
+wget --no-check-certificate \
+    https://storage.googleapis.com/laurencemoroney-blog.appspot.com/training_cleaned.csv \
+    -O ./datasets/training_cleaned.csv
+
+wget --no-check-certificate \
+    https://storage.googleapis.com/laurencemoroney-blog.appspot.com/glove.6B.100d.txt \
+    -O ./datasets/glove.6B.100d.txt
+
+wget --no-check-certificate \
+    https://storage.googleapis.com/laurencemoroney-blog.appspot.com/irish-lyrics-eof.txt \
+    -O ./datasets/irish-lyrics-eof.txt
+
+
+Timeseries Datasources
+----------------------
+wget --no-check-certificate \
+    https://raw.githubusercontent.com/jbrownlee/Datasets/master/daily-min-temperatures.csv \
+    -O ./datasets/daily-min-temperatures.csv
